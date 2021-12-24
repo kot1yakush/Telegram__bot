@@ -27,7 +27,7 @@ namespace Telegram__bot
             client.StopReceiving();
         }
 
-        private static async void smsInBot(object? sender, MessageEventArgs e)
+        private static async void SmsInBot(object? sender, MessageEventArgs e)
         {
             var smg = e.Message;
             if (smg.Text != null)
