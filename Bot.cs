@@ -24,6 +24,7 @@ namespace Telegram__bot
             client.StartReceiving();
             client.OnMessage += smsInBot;
             Console.ReadLine();
+
             client.StopReceiving();
         }
 
